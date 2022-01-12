@@ -1,0 +1,17 @@
+<h2 class="mt-5">Celebrities</h2>
+<table class="table table-striped table-bordered table-hover">
+    <thead class="thead-dark">
+        <th scope="col">Name</th>
+        <th scope="col">Occupation</th>
+        <th scope="col">Catchphrase</th>
+    </thead>
+    <tbody>
+        {{#each celebrities}}
+            <tr>
+                <td>{{name}}</td>
+                <td>{{occupation}}</td>
+                <td>{{catchphrase}}</td>
+            </tr>
+        {{/each}}
+    </tbody>
+</table>
