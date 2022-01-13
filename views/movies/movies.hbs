@@ -1,0 +1,19 @@
+<h2 class="mt-5">Movies</h2>
+<table class="table table-striped table-bordered table-hover">
+    <thead class="thead-dark">
+        <th scope="col">Name</th>
+        <th scope="col">Genre</th>
+        <th scope="col">Plot</th>
+        <th scope="col">Cast</th>
+    </thead>
+    <tbody>
+        {{#each movies}}
+            <tr>
+                <td>{{name}}</td>
+                <td>{{genre}}</td>
+                <td>{{plot}}</td>
+                <td>{{cast.name}}</td>
+            </tr>
+        {{/each}}
+    </tbody>
+</table>

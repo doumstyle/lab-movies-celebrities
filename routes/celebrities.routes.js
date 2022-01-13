@@ -30,7 +30,7 @@ router.get("/", async (req, res, next) => {
         css: ["celebrities", "style"],
       });
     })
-    .catch((e) => comsole.error(e));
+    .catch((e) => console.error(e));
 });
 
 module.exports = router;
